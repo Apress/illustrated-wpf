@@ -1,0 +1,27 @@
+﻿<Window x:Class="DynamicResource.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="Resources" Height="170" Width="190">
+
+   <Window.Resources>
+      <LinearGradientBrush x:Key="gradBrush" StartPoint="0,0" EndPoint="1,1">
+         <GradientStop Color="White" Offset="0" />
+         <GradientStop Color="Black" Offset="1"/>
+      </LinearGradientBrush>
+   </Window.Resources>
+
+   <StackPanel Background="{DynamicResource gradBrush}" Name="sp">
+      <TextBlock FontFamily="Arial Black" Margin="7"
+                 Background="{DynamicResource gradBrush}">Some Buttons</TextBlock>
+      <Button Height="40" Name="btn1" FontWeight="Bold"
+              Background="{StaticResource gradBrush}">
+         Button 1
+      </Button>
+      <Button Height="40" Name="btn2" FontWeight="Bold"
+              Background="{DynamicResource gradBrush}">
+         Button 2
+      </Button>
+      <Button HorizontalAlignment="Right" Click="Button_Click">Change</Button>
+   </StackPanel>
+   
+</Window>

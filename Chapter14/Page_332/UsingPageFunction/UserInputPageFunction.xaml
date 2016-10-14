@@ -1,0 +1,12 @@
+﻿<PageFunction
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib" 
+    x:Class="UsingPageFunction.UserInputPageFunction"
+    x:TypeArguments="sys:String"
+    Title="UserInputPageFunction">
+   <StackPanel>
+      <TextBox Name="pfTextBox" Margin="5"></TextBox>
+      <Button Margin="5" Click="Button_Click">Return Data</Button>
+   </StackPanel>
+</PageFunction>

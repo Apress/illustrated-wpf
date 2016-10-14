@@ -1,0 +1,15 @@
+﻿<Window x:Class="ScaleLayout.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Scale Layout" Height="120" Width="233">
+   <StackPanel HorizontalAlignment="Center">
+      <Button Width="70">Button 1</Button>
+      <Button Width="70">
+         <Button.LayoutTransform>
+            <ScaleTransform ScaleX="1.75" ScaleY="1.5"/>
+         </Button.LayoutTransform>
+         Button 2
+      </Button>
+      <Button Width="70">Button 3</Button>
+   </StackPanel>
+</Window>

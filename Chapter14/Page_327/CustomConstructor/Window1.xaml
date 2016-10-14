@@ -1,0 +1,8 @@
+﻿<Page x:Class="CustomConstructor.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    WindowTitle="Window1" WindowHeight="100" WindowWidth="150">
+    <Grid>
+      <Button Click="Button_Click">Click Me</Button>
+   </Grid>
+</Page>

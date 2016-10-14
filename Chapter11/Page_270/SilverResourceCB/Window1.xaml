@@ -1,0 +1,8 @@
+﻿<Window x:Class="SilverResourceCB.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Resources" Height="100" Width="140">
+   <StackPanel Name="sp">
+      <Button Name="btn1">Button 1</Button>
+   </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="TranslateStack.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="120" Width="180">
+   <StackPanel HorizontalAlignment="Center">
+      <Button Width="70">Button 1</Button>
+      <Button Width="70">
+         <Button.RenderTransform>
+            <TranslateTransform X="30" Y="10"/>
+         </Button.RenderTransform>
+         Button 2
+      </Button>
+      <Button Width="70">Button 3</Button>
+   </StackPanel>
+</Window>

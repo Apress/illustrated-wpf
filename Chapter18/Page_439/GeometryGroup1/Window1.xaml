@@ -1,0 +1,17 @@
+﻿<Window x:Class="GeometryGroup1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Group" Height="135" Width="180">
+   <Grid>
+      <Path Stroke="Black" StrokeThickness="2" Fill="LightGray">
+         <Path.Data>
+            <GeometryGroup FillRule="Nonzero">
+               <EllipseGeometry Center="60,50"
+                                RadiusX="40" RadiusY="30"/>
+               <EllipseGeometry Center="100,50"
+                                RadiusX="40" RadiusY="30"/>               
+            </GeometryGroup>
+         </Path.Data>
+      </Path>
+   </Grid>
+</Window>

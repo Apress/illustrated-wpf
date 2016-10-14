@@ -1,0 +1,22 @@
+﻿<Window x:Class="MultipleButtons0.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Button" Height="150" Width="150">
+   <Window.Resources>
+      <ControlTemplate x:Key="myButtonTemplate" TargetType="Button">
+         <Border Padding="5" Background="Aqua" BorderBrush="Blue" CornerRadius="5"
+                 BorderThickness="5"  HorizontalAlignment="Center">
+            <ContentPresenter/>
+         </Border>
+      </ControlTemplate>
+   </Window.Resources>
+   
+   <StackPanel>
+      <Button FontWeight="Bold" Template="{StaticResource myButtonTemplate}"
+              Name="myButton">Click Me</Button>
+      <Button FontWeight="Bold" Template="{StaticResource myButtonTemplate}"
+              Name="myButton1">Button 2</Button>
+      <Button FontWeight="Bold" Template="{StaticResource myButtonTemplate}"
+              Name="myButton2">Button 3</Button>
+   </StackPanel>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="EventSetters.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="EventSetter" Height="100" Width="180">
+   <Window.Resources>
+      <Style TargetType="Button">
+         <EventSetter Event="MouseEnter" Handler="ChangeValue_OnEnter"/>
+      </Style>
+      
+   </Window.Resources>
+    <StackPanel>
+      <Button Width="75" Height="40">0</Button>
+   </StackPanel>
+</Window>

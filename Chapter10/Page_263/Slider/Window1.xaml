@@ -1,0 +1,8 @@
+﻿<Window x:Class="Slider.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Slider" Height="100" Width="180">
+    <StackPanel>
+      <Slider TickFrequency="1" TickPlacement="BottomRight" Margin="10"></Slider>
+   </StackPanel>
+</Window>

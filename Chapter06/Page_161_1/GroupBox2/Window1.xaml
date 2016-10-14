@@ -1,0 +1,12 @@
+﻿<Window x:Class="GroupBox2.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="GroupBoxes" Height="187" Width="195">
+   <GroupBox Header="Grouped Things" Margin="5">         
+      <StackPanel>
+         <Image Margin="3" HorizontalAlignment="Left" Height="50" Source="Images/AL.jpg"></Image>
+         <Button Margin="3">Btn 1</Button>
+         <Button Margin="3">Btn 2</Button>
+      </StackPanel>
+   </GroupBox>
+</Window>

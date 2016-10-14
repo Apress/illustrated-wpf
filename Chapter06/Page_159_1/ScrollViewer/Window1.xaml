@@ -1,0 +1,14 @@
+﻿<Window x:Class="ScrollViewer.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ScrollViewer" Height="100" Width="150">
+    <Grid>
+      <ScrollViewer>
+         <StackPanel>
+            <Button>Button 1</Button>     <Button>Button 20</Button>
+            <Button>Button 300</Button>   <Button>Button 4000</Button>
+            <Button>Button 50000</Button> <Button>Button 600000</Button>
+         </StackPanel>
+      </ScrollViewer>
+   </Grid>
+</Window>

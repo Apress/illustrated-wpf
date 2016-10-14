@@ -1,0 +1,15 @@
+﻿<Window x:Class="SimpleVideo.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Show Video" Height="280" Width="295">
+    <StackPanel>
+       <!-- This video has a fade-in from black, so the screen will initially be black -->
+      <MediaElement Name="videoElement" LoadedBehavior="Manual"
+                    ScrubbingEnabled="True" Source="cat.wmv"/>
+      <StackPanel Orientation="Horizontal">
+         <Button Margin="3" Padding="3" Click="Play_Click">Play</Button>
+         <Button Margin="3" Padding="3" Click="Stop_Click">Stop</Button>
+         <Button Margin="3" Padding="3" Click="Pause_Click">Pause</Button>
+      </StackPanel>
+   </StackPanel>
+</Window>

@@ -1,0 +1,9 @@
+﻿<Window x:Class="CanvasZOrder.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Canvas Z-Order" Height="120" Width="210">
+   <Canvas>
+      <Button Canvas.Top="32" Canvas.Left="30" Canvas.ZIndex="5">Top Left</Button>
+      <Button Canvas.Top="20" Canvas.Right="30">Top Right</Button>
+   </Canvas>
+</Window>

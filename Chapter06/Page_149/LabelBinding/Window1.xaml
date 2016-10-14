@@ -1,0 +1,12 @@
+﻿<Window x:Class="LabelBinding.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Label" Height="183" Width="200">
+   <StackPanel >
+      <Label Target="{Binding ElementName=firstName}">_First Name:</Label>
+      <TextBox Name="firstName"></TextBox>
+      
+      <Label Target="{Binding ElementName=lastName}">_Last Name:</Label>
+      <TextBox Name="lastName"></TextBox>
+   </StackPanel>
+</Window>

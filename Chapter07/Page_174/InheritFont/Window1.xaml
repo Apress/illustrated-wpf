@@ -1,0 +1,14 @@
+﻿<Window x:Class="InheritFont.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Inherit" Height="130" Width="150">
+   <GroupBox FontWeight="Bold">
+      <GroupBox.Header>
+         Buttons
+      </GroupBox.Header>
+      <StackPanel>
+         <Button FontWeight="Medium">Button 1</Button>
+         <Button>Button 2</Button>
+      </StackPanel>
+   </GroupBox>
+</Window>

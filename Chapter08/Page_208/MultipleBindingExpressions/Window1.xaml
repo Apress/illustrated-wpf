@@ -1,0 +1,9 @@
+﻿<Window x:Class="MultipleBindingExpressions.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="Multiple" Height="140" Width="150">
+   <StackPanel>
+      <Label Name="displayText" Margin="5"/>
+      <TextBox Name="sourceInfo">10</TextBox>
+   </StackPanel>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="PersonList.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="List" Height="142" Width="205">
+   <StackPanel>
+      <StackPanel Orientation="Horizontal" Name="sp" Margin="5,10"
+                  DataContext="{Binding ElementName=comboPeople, Path=SelectedItem}">
+         
+         <Label Name="lblFName" FontWeight="Bold"/>
+         <Label Name="lblAge"/>
+         <Label Name="lblColor"/>
+      </StackPanel>      
+      <ComboBox Name="comboPeople" SelectedIndex="0"
+                DisplayMemberPath="FirstName"/>
+   </StackPanel>
+</Window>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="TextBoxProgram.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="120" Width="170">
+   <StackPanel>
+      <Label Target="{Binding ElementName=txtbxName}">_Enter Your Name</Label>
+      <TextBox Name="txtbxName"/>
+      <Button HorizontalAlignment="Right" Padding="10,3"
+               Click="Button_Click">Enter</Button>
+   </StackPanel>
+</Window>

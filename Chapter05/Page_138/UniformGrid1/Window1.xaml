@@ -1,0 +1,11 @@
+﻿<Window x:Class="UniformGrid1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="UniformGrid" Height="120" Width="210">
+    <UniformGrid Rows="2" Columns="2">
+      <Button>Button 1</Button>
+      <Button>Button 2</Button>
+      <Button>Button 3</Button>
+      <Button>Button 4</Button>
+   </UniformGrid>
+</Window>

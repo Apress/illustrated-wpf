@@ -1,0 +1,14 @@
+﻿<Window x:Class="ToolTips.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ToolTip Demo" Height="160" Width="150">
+    <StackPanel>
+      <Button ToolTip="Important Button">Start Game</Button>
+      <ComboBox ToolTip="Choose a Suit" SelectedIndex="0">
+         <ComboBoxItem ToolTip="Black Suit">Clubs</ComboBoxItem>
+         <ComboBoxItem ToolTip="Red Suit">Diamonds</ComboBoxItem>
+         <ComboBoxItem ToolTip="Red Suit">Hearts</ComboBoxItem>
+         <ComboBoxItem ToolTip="Black Suit">Spades</ComboBoxItem>
+      </ComboBox>
+   </StackPanel>
+</Window>

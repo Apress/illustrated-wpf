@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarVertical", "ProgressBarVertical\ProgressBarVertical.csproj", "{447C74E8-2A81-496C-895A-DAD19543B6FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{447C74E8-2A81-496C-895A-DAD19543B6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447C74E8-2A81-496C-895A-DAD19543B6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447C74E8-2A81-496C-895A-DAD19543B6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447C74E8-2A81-496C-895A-DAD19543B6FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

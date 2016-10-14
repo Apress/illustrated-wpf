@@ -1,0 +1,24 @@
+﻿<Window x:Class="SimpleSkew.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Skew" Height="169" Width="165">
+   <StackPanel HorizontalAlignment="Center">
+      <Button Width="90" FontWeight="Bold" Margin="2">
+         No Skew</Button>
+      
+      <Button Width="90" FontWeight="Bold" Margin="2">
+         <Button.RenderTransform>
+            <SkewTransform AngleX="30"/>
+         </Button.RenderTransform>
+         AngleX="30"
+      </Button>
+      
+      <Button Width="90" FontWeight="Bold" Margin="2">
+         <Button.RenderTransform>
+            <SkewTransform AngleY="30"/>
+         </Button.RenderTransform>
+         AngleY="30"
+      </Button>
+
+   </StackPanel>
+</Window>

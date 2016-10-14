@@ -1,0 +1,23 @@
+﻿<FlowDocumentReader x:Class="Containment.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   <FlowDocument>
+      <Paragraph>
+         <Run>"Lorem ipsum" text is Latin text that printers
+            and designers use to display layout designs or
+            typefaces. It can also be used to stand in
+            for actual text that will be supplied later.</Run>
+         <Run>Using</Run>
+         <Italic>lorem text</Italic>
+         <Run>allows the viewer to concentrate on the
+            layout or typeface rather than the content.</Run>
+      </Paragraph>
+      <Paragraph>
+         <Run>
+            The text is based on a passage from Cicero, but
+            is not a direct quotation. It was used by early
+            printers starting in the 1500's or early 1600's.
+         </Run>
+      </Paragraph>
+   </FlowDocument>
+</FlowDocumentReader>

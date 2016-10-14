@@ -1,0 +1,18 @@
+﻿<FlowDocumentReader x:Class="SimpleList.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   <FlowDocument>
+      <Paragraph>This is a simple list.</Paragraph>
+      <List>
+         <ListItem>
+            <Paragraph>Lorem ipsum dolor sit amet ...</Paragraph>
+         </ListItem>
+         <ListItem>
+            <Paragraph>Nemo enim ipsam voluptatem quia voluptas ...</Paragraph>
+         </ListItem>
+         <ListItem>
+            <Paragraph>Neque porro quisquam est, qui ...</Paragraph>
+         </ListItem>         
+      </List>
+   </FlowDocument>
+</FlowDocumentReader>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="ToolBars1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ToolBars" Height="120" Width="235">
+    <StackPanel>
+      <ToolBar>
+         <Menu>
+            <MenuItem Header="File">
+               <MenuItem Header="New Game"        Click="MenuItem_Click_NewGame"/>
+               <MenuItem Header="Change Opponent" Click="MenuItem_Click_ChangeOpponent"/>                  
+            </MenuItem>
+         </Menu>
+         <Button Width="40" Click="Button_Click_Bet">Bet</Button>
+         <Button Width="40" Click="Button_Click_Fold">Fold</Button>
+         <ComboBox Width="70" SelectedIndex="0">
+            <ComboBoxItem>Clubs</ComboBoxItem>
+            <ComboBoxItem>Diamonds</ComboBoxItem>
+            <ComboBoxItem>Hearts</ComboBoxItem>
+            <ComboBoxItem>Spades</ComboBoxItem>
+         </ComboBox>
+      </ToolBar>
+   </StackPanel>
+</Window>

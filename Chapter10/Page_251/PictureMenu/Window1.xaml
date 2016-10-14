@@ -1,0 +1,26 @@
+﻿<Window x:Class="PictureMenu.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Picture Menus" Height="180" Width="215">
+   <StackPanel>
+      <Menu>
+         <MenuItem Header="File">
+            <MenuItem InputGestureText="Alt+K">
+               <MenuItem.Header>
+                  <Image Source="kccard.bmp"/>
+               </MenuItem.Header>
+            </MenuItem>
+            <MenuItem InputGestureText="Alt+Q">
+               <MenuItem.Header>
+                  <Image Source="qccard.bmp"/>
+               </MenuItem.Header>
+            </MenuItem>
+            <MenuItem InputGestureText="Alt+J">
+               <MenuItem.Header>
+                  <Image Source="jccard.bmp"/>
+               </MenuItem.Header>
+            </MenuItem>
+         </MenuItem>
+      </Menu>
+   </StackPanel>
+</Window>

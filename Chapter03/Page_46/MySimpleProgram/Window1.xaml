@@ -1,0 +1,13 @@
+﻿<Window x:Class="MySimpleProgram.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="My Simple Window" Height="120" Width="200">
+   <StackPanel>
+      <TextBlock HorizontalAlignment="Center">
+         This window holds a button.
+      </TextBlock>
+      <Button>
+         Button
+      </Button>
+   </StackPanel>
+</Window>

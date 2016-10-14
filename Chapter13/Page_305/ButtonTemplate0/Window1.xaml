@@ -1,0 +1,23 @@
+﻿<Window x:Class="ButtonTemplate0.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Button" Height="80" Width="150">
+   <Window.Resources>
+      
+      <ControlTemplate x:Key="myButtonTemplate">
+         <Border Padding="5" Background="Aqua" BorderBrush="Blue"
+                 BorderThickness="5"  HorizontalAlignment="Center"
+                 CornerRadius="5">
+            <TextBlock>Click Here</TextBlock>
+         </Border>
+      </ControlTemplate>
+      
+   </Window.Resources>
+   
+   <StackPanel>      
+      <Button FontWeight="Bold" Template="{StaticResource myButtonTemplate}"
+              Click="myButton_Click" Name="myButton">
+         Click Me
+      </Button>
+   </StackPanel>
+</Window>

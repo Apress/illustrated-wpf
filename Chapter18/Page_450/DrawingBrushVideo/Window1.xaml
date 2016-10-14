@@ -1,0 +1,13 @@
+﻿<Window x:Class="DrawingBrushVideo.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DrawingBrush Video" Height="145" Width="159">
+   <Grid>
+      <Button Height="70" Width="100"
+              Foreground ="White" Content="My Button">
+         <Button.Background>
+            <DrawingBrush x:Name="lakeBrush"/>
+         </Button.Background>
+      </Button>
+   </Grid>
+</Window>

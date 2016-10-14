@@ -1,0 +1,30 @@
+﻿<Window x:Class="DiscreteKeyFrame.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Drop Button" Height="197" Width="215">
+   <Canvas>
+      <Button Canvas.Top="20" Canvas.Left="0" Content="Hi" Padding="7,3">
+         <Button.Triggers>
+            <EventTrigger RoutedEvent="Button.MouseEnter">
+               <EventTrigger.Actions>
+                  <BeginStoryboard>
+                     <Storyboard>
+                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Canvas.Left)"
+                                                           Duration="0:0:5">
+                           <DiscreteDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                           <DiscreteDoubleKeyFrame KeyTime="0:0:1" Value="160"/>
+                           <DiscreteDoubleKeyFrame KeyTime="0:0:2" Value="40"/>
+                           <DiscreteDoubleKeyFrame KeyTime="0:0:3" Value="120"/>
+                           <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="80"/>
+                           <DiscreteDoubleKeyFrame KeyTime="0:0:5" Value="100"/>
+                        </DoubleAnimationUsingKeyFrames>
+                        <DoubleAnimation From="20" To="120" Storyboard.TargetProperty="(Canvas.Top)"
+                                         Duration="0:0:5"/>
+                     </Storyboard>
+                  </BeginStoryboard>
+               </EventTrigger.Actions>
+            </EventTrigger>
+         </Button.Triggers>
+      </Button>
+   </Canvas>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="GradientStopExample.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="GradientStops" Height="283" Width="278">
+   <StackPanel>
+      <Button Height="200" Width="230" Margin="10">
+         <Button.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+               <GradientStop Offset="0" Color="Red"/>
+               <GradientStop Offset=".25" Color="Orange"/>
+               <GradientStop Offset=".5" Color="Green"/>
+               <GradientStop Offset=".75" Color="Blue"/>
+               <GradientStop Offset="1" Color="Violet"/>
+            </LinearGradientBrush>
+         </Button.Background>
+      </Button>
+      <TextBlock HorizontalAlignment="Center" FontWeight="Bold">(0, 0) (1, 1)</TextBlock>
+   </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="RotateInStackPanel.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Rotate" Height="149" Width="167">
+   <StackPanel HorizontalAlignment="Center">
+      <Button>Rotate Me</Button>
+      <Button>
+         <Button.LayoutTransform>
+            <RotateTransform Angle="45"/>
+         </Button.LayoutTransform>
+         Rotate Me
+      </Button>
+      <Button>Rotate Me</Button>
+   </StackPanel>
+</Window>

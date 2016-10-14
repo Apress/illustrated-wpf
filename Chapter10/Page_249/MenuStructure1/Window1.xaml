@@ -1,0 +1,14 @@
+﻿<Window x:Class="MenuStructure1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Menus" Height="130" Width="215">
+    <StackPanel>
+      <Menu>
+         <MenuItem Header="File">
+            <MenuItem Header="New Game"   Click="MenuItemNewGame_Click"/>
+            <MenuItem Header="Exit"       Click="MenuItemExit_Click"/>
+         </MenuItem>
+         <MenuItem Header="Help"          Click="MenuItemHelp_Click"/>
+      </Menu>
+   </StackPanel>
+</Window>

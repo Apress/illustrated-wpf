@@ -1,0 +1,12 @@
+﻿<Window x:Class="TextBlockSimple.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Simple TextBlock" Height="120" Width="240">
+   <StackPanel>
+      <TextBlock TextWrapping="Wrap">
+         I know you believe you understand what you think I said. But what
+         you fail to realize is that what you heard is not what I meant.
+      </TextBlock>
+   </StackPanel>
+</Window>
+

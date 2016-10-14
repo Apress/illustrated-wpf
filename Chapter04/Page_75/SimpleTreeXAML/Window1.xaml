@@ -1,0 +1,12 @@
+﻿<Window x:Class="SimpleTreeXAML.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   <StackPanel>
+      <TextBlock>
+         Illustrated WPF
+      </TextBlock>
+      <Button>
+         Click Me
+      </Button>
+   </StackPanel>
+</Window>

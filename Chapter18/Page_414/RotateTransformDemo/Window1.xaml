@@ -1,0 +1,14 @@
+﻿<Window x:Class="RotateTransformDemo.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Rotate" Height="129" Width="165">
+   <Canvas>
+      <Button  Canvas.Left="30" Canvas.Top="20">
+         <Button.RenderTransform>
+            <RotateTransform Angle="45"/>
+         </Button.RenderTransform>
+         Rotate Me
+      </Button>
+      <Ellipse Canvas.Left="27.5" Canvas.Top="17.5" Height="5" Width="5" Fill="Red"/>
+   </Canvas>
+</Window>

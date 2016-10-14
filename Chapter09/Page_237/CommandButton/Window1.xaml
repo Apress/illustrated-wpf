@@ -1,0 +1,15 @@
+﻿<Window x:Class="CommandButton.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Commands" Height="115" Width="200">
+    <StackPanel>
+      <TextBox Name="cutFrom"></TextBox>
+      <TextBox Name="pasteTo"></TextBox>
+      <StackPanel Orientation="Horizontal">
+         
+         <Button Name="btnCut" Width="50">Cut</Button>
+         <Button Name="btnPaste" Width="50">Paste</Button>
+         
+      </StackPanel>
+   </StackPanel>
+</Window>

@@ -1,0 +1,10 @@
+﻿<Window x:Class="MarkupExtensions.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MarkupExtensions"
+    Title="Markup Extensions" Height="120" Width="175">
+   <StackPanel>
+    <Button Content="{local:ShowTime First}"></Button>
+    <Button Content="{local:ShowTime Header=Second}"></Button>      
+   </StackPanel>
+</Window>

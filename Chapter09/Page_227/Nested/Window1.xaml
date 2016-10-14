@@ -1,0 +1,19 @@
+﻿<Window x:Class="Nested.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Events" Height="150" Width="200">
+   <StackPanel Orientation="Horizontal" >
+      <Border Name="myBorder" BorderThickness="10" BorderBrush="BurlyWood"
+              MouseUp="myBorder_MouseUp">
+         <Label Name="myLabel" Padding="10"
+                MouseUp="myLabel_MouseUp">
+            <Image Name="cat" Source="DarwinFace.jpg" Stretch="None"
+                   MouseUp="cat_MouseUp"/>
+         </Label>         
+      </Border>
+      <StackPanel>
+         <Button Name="Clear" Padding="10,3" Click="Clear_Click">Clear</Button>
+         <TextBlock Name="tb" Margin="5,5,0,0"></TextBlock>
+      </StackPanel>
+   </StackPanel>
+</Window>

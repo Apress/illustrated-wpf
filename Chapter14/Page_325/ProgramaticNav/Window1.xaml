@@ -1,0 +1,14 @@
+﻿<Page x:Class="ProgramaticNav.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    WindowTitle="Programmatic" WindowHeight="170" WindowWidth="225">
+    <StackPanel>
+      <ListBox Name="lbxSelection" BorderBrush="Black" Margin="2"
+               Padding="3" SelectedIndex="0"  HorizontalAlignment="Left">
+         <ListBoxItem>Landscape</ListBoxItem>
+         <ListBoxItem>Portrait</ListBoxItem>
+      </ListBox>
+      <Button HorizontalAlignment="Left" Margin="2"
+              Padding="4" Click="Button_Click">Show Picture</Button>
+   </StackPanel>
+</Page>

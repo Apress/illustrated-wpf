@@ -1,0 +1,19 @@
+﻿<Window x:Class="MediaSoundPlayerFancy.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Music Player" Height="130" Width="200">
+   <StackPanel>
+      <GroupBox Header="Balance" Margin="5" >
+         <StackPanel Orientation="Horizontal">
+            <RadioButton Margin="10,5" GroupName="balanceButtons"  Checked="radioButton_Checked" Name="radioLeft"/>
+            <RadioButton Margin="10,5" GroupName="balanceButtons"  Checked="radioButton_Checked" Name="radioCenter"/>
+            <RadioButton Margin="10,5" GroupName="balanceButtons"  Checked="radioButton_Checked" Name="radioRight"/>
+         </StackPanel>
+      </GroupBox>
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
+         <Button Click="Play_Click"  Margin="3" Padding="6,3">Play</Button>
+         <Button Click="Pause_Click" Margin="3" Padding="6,3">Pause</Button>
+         <Button Click="Stop_Click"  Margin="3" Padding="6,3">Stop</Button>
+      </StackPanel>
+   </StackPanel>
+</Window>

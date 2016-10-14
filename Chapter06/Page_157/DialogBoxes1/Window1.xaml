@@ -1,0 +1,9 @@
+﻿<Window x:Class="DialogBoxes1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Dialogs" Height="120" Width="170">
+    <Grid>
+      <Button Click="Button_Click" VerticalAlignment="Top">
+         Create Dialog</Button>
+   </Grid>
+</Window>

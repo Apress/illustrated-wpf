@@ -1,0 +1,20 @@
+﻿<Window x:Class="CommandButton.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Commands" Height="115" Width="200">
+    <StackPanel>
+      <TextBox Name="cutFrom"></TextBox>
+      <TextBox Name="pasteTo"></TextBox>
+       
+      <StackPanel Orientation="Horizontal">
+         <Button Width="50"
+                 Command="ApplicationCommands.Cut"
+                 CommandTarget="{Binding ElementName=cutFrom}">Cut</Button>
+         
+         <Button Width="50"
+                 Command="ApplicationCommands.Paste"
+                 CommandTarget="{Binding ElementName=pasteTo}">Paste</Button>
+         
+      </StackPanel>
+   </StackPanel>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="DropShadowEffect.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Effects" Height="230" Width="190">
+   <Window.Resources>
+      <Style TargetType="Button">
+         <Setter Property="TextBlock.FontSize" Value="15"/>
+         <Setter Property="TextBlock.Margin" Value="5"/>
+         <Setter Property="TextBlock.Padding" Value="3"/>
+         <Setter Property="TextBlock.Width" Value="80"/>
+         <Setter Property="TextBlock.HorizontalAlignment" Value="Center"/>
+         <Setter Property="TextBlock.VerticalAlignment" Value="Center"/>
+      </Style>
+   </Window.Resources>
+   <StackPanel>
+      <Button Content="Button">
+         <Button.BitmapEffect><BevelBitmapEffect/></Button.BitmapEffect>
+      </Button>
+      <Button Content="Button">
+         <Button.BitmapEffect><BlurBitmapEffect/></Button.BitmapEffect>
+      </Button>
+      <Button Content="Button">
+         <Button.BitmapEffect><DropShadowBitmapEffect/></Button.BitmapEffect>
+      </Button>
+      <Button Content="Button">
+         <Button.BitmapEffect><EmbossBitmapEffect/></Button.BitmapEffect>
+      </Button>
+      <Button Content="Button">
+         <Button.BitmapEffect><OuterGlowBitmapEffect GlowColor="Gray"/>
+         </Button.BitmapEffect>
+      </Button>
+   </StackPanel>
+</Window>

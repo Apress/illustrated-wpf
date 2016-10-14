@@ -1,0 +1,12 @@
+﻿<Window x:Class="IntroSliderExplicitTrigger.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Bind Slider" Height="150" Width="200">
+   <StackPanel>
+      <TextBox Margin="10" Name="tbValue"
+               Text="{Binding ElementName=sldrSlider, Path=Value,
+               UpdateSourceTrigger=Explicit}" />
+      <Slider Name="sldrSlider" TickPlacement="TopLeft"  Margin="10"/>
+      <Button Click="Button_Click">Trigger</Button>
+   </StackPanel>
+</Window>

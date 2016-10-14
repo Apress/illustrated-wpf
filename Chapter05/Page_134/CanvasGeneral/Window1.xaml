@@ -1,0 +1,9 @@
+﻿<Window x:Class="CanvasGeneral.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="The Canvas" Height="150" Width="225">
+   <Canvas>
+      <Button Canvas.Left="30" Canvas.Top="30">Button 1</Button>
+      <Button Canvas.Left="120" Canvas.Top="70">Button 2</Button>
+   </Canvas>
+</Window>

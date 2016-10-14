@@ -1,0 +1,14 @@
+﻿<Window x:Class="ListBox.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Cats" Height="130" Width="190">
+    <StackPanel>       
+      <ListBox Name="lstbxCats" HorizontalAlignment="Left" Width="100">
+         <ListBoxItem>Sweetie</ListBoxItem>
+         <ListBoxItem>Darwin</ListBoxItem>
+         <ListBoxItem>Florence</ListBoxItem>
+      </ListBox>
+      <Button Click="Button_Click" HorizontalAlignment="Left"
+              Width="100" Padding="10,3" Margin="0,5">Enter</Button>
+   </StackPanel>
+</Window>

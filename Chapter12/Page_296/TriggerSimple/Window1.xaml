@@ -1,0 +1,25 @@
+﻿<Window x:Class="TriggerSimple.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Trigger" Height="110" Width="150">
+   <Window.Resources>
+      
+      <Style TargetType="Button">
+         
+         <Setter Property="FontStyle" Value="Italic"/>
+         
+         <Style.Triggers>
+            <Trigger Property="IsMouseOver"  Value="True">
+               <Setter Property="FontWeight" Value="Bold"/>
+               <Setter Property="FontSize"   Value="20"/>
+            </Trigger>
+         </Style.Triggers>
+      </Style>
+
+   </Window.Resources>
+   
+   <StackPanel>
+      <Button>Button 1</Button>
+      <Button>Button 2</Button>
+   </StackPanel>
+</Window>

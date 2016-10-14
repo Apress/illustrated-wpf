@@ -1,0 +1,23 @@
+﻿<Window x:Class="StackPanelVertical.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="StackPanel" Height="150" Width="200">
+   <StackPanel>
+      <Button>Btn 1</Button>
+      <Button>Btn 2</Button>
+      <Button>Btn 3</Button>
+   </StackPanel>
+   
+   <!--<StackPanel Orientation="Horizontal">
+      <Button>Btn 1</Button>
+      <Button>Btn 2</Button>
+      <Button>Btn 3</Button>
+   </StackPanel>-->
+   
+   <!--<StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+      <Button>Btn 1</Button>
+      <Button>Btn 2</Button>
+      <Button>Btn 3</Button>
+   </StackPanel>-->
+   
+</Window>

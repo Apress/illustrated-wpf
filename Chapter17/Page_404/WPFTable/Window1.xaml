@@ -1,0 +1,58 @@
+﻿<FlowDocumentReader x:Class="WPFTable.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   <FlowDocument>
+      <Paragraph>The following is a table of information about several antique maps.</Paragraph>
+      <Table>
+         <Table.Columns>
+            <TableColumn Width="150"/>
+            <TableColumn Width="60"/>
+            <TableColumn Width="200"/>
+         </Table.Columns>
+         <TableRowGroup >
+            <TableRow FontSize="18" FontWeight="Bold">
+               <TableCell>
+                  <Paragraph>Cartographer</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph>Year</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph>Name</Paragraph>
+               </TableCell>
+            </TableRow>
+            <TableRow>
+               <TableCell><Paragraph>Seutter</Paragraph></TableCell>
+               <TableCell>
+                  <Paragraph>1730</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph><Italic>Diversi Globi Terr-Aquei</Italic></Paragraph>
+               </TableCell>
+            </TableRow>
+            <TableRow>
+               <TableCell>
+                  <Paragraph>Stoopendahl</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph>1680</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph><Italic>Orbis Terrarum</Italic></Paragraph>
+               </TableCell>
+            </TableRow>
+            <TableRow>
+               <TableCell>
+                  <Paragraph>Valck</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph>1700</Paragraph>
+               </TableCell>
+               <TableCell>
+                  <Paragraph><Italic>Mappe Monde</Italic></Paragraph>
+               </TableCell>
+            </TableRow>
+         </TableRowGroup>
+      </Table>
+   </FlowDocument>
+</FlowDocumentReader>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="ButtonTemplateTriggers.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Button" Height="80" Width="150">
+   <Window.Resources>
+
+      <ControlTemplate x:Key="myButtonTemplate" TargetType="Button">
+         <Border Padding="5" Background="White" BorderBrush="Blue" CornerRadius="5"
+                 BorderThickness="5"  HorizontalAlignment="Center"
+                 Name="templateBorder">
+            <TextBlock>Click Here</TextBlock>
+         </Border>
+         <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+               <Setter TargetName="templateBorder" Property="Background" Value="LightGray"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+               <Setter TargetName="templateBorder" Property="Padding" Value="2"/>
+               <Setter TargetName="templateBorder" Property="BorderThickness" Value="8"/>
+            </Trigger>                     
+         </ControlTemplate.Triggers>
+      </ControlTemplate>
+
+   </Window.Resources>
+   <StackPanel>
+
+      <Button FontWeight="Bold" Template="{StaticResource myButtonTemplate}"
+              Click="myButton_Click" Name="myButton">
+         Click Me
+      </Button>
+
+   </StackPanel>
+</Window>

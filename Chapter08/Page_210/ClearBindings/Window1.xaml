@@ -1,0 +1,35 @@
+﻿<Window x:Class="ClearBindings.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="Clear Bindings" Height="152" Width="260">
+   <StackPanel>
+      <Label Name="DisplayText" Margin="5" FontSize="16"
+         Content="My Text"
+         FontFamily="{Binding ElementName=fontBox, Path=Text}"
+         FontWeight="{Binding ElementName=weightBox, Path=Text}"/>
+      <Grid>
+         <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+         </Grid.ColumnDefinitions>
+         <StackPanel>
+            <ComboBox Name="fontBox" SelectedIndex="0" Margin="5,0,5,2">
+               <ComboBoxItem>Arial</ComboBoxItem>
+               <ComboBoxItem>Courier New</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Name="weightBox" SelectedIndex="0" Margin="5,0,5,2">
+               <ComboBoxItem>Normal</ComboBoxItem>
+               <ComboBoxItem>Bold</ComboBoxItem>
+            </ComboBox>
+         </StackPanel>
+         <StackPanel Grid.Column="1">
+            <Button Name="ClearFont" Margin="5,0,5,2"
+                    Click="ClearFont_Click">Clear Font</Button>
+            <Button Name="ClearAll" Margin="5,0,5,2" 
+                    Click="ClearAll_Click">Clear All</Button>
+            <Button Name="CreateBindings" Margin="5,0,5,2" 
+                    Click="CreateBindings_Click">Create Bindings</Button>
+         </StackPanel>
+      </Grid>
+   </StackPanel>
+</Window>

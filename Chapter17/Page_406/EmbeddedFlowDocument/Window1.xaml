@@ -1,0 +1,31 @@
+﻿<Window x:Class="EmbeddedFlowDocument.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Embedded FlowDocumentReader" Height="170" Width="546">
+   <Grid>
+      <Grid.ColumnDefinitions>
+         <ColumnDefinition Width="auto"/>
+         <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <StackPanel Grid.Column="0">
+         <Button VerticalAlignment="Top" Margin="3">Button 1</Button>
+         <Button VerticalAlignment="Top" Margin="3">Button 2</Button>
+         <Button VerticalAlignment="Top" Margin="3">Button 3</Button>
+      </StackPanel>
+      <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="3">
+         <FlowDocumentReader>
+            <FlowDocument>
+               <Paragraph>
+                  <Run>"Lorem ipsum" text is Latin text that printers
+                       and designers use to display layout designs or
+                       typefaces.
+                       The text is based on a passage from Cicero, but
+                       is not a direct quotation. It was used by early
+                       printers starting in the 1500's or early 1600's.
+                  </Run>
+               </Paragraph>
+            </FlowDocument>
+         </FlowDocumentReader>
+      </Border>
+   </Grid>
+</Window>

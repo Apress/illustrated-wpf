@@ -1,0 +1,21 @@
+﻿<Window x:Class="DataGrid1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Famous Detectives" Height="160" Width="310">
+    <StackPanel>
+         <DataGrid Name="dg" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding FirstName}"
+                                    Header="First Name"/>
+                <DataGridTextColumn Binding="{Binding LastName}"
+                                    Header="Last Name"/>
+                <DataGridCheckBoxColumn Binding="{Binding HasRoadster}"
+                                    Header="Has Roadster" 
+                                    Width="Auto"/>
+                <DataGridTextColumn Binding="{Binding Age}"
+                                    Header="Age"
+                                    Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>

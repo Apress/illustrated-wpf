@@ -1,0 +1,17 @@
+﻿<Window x:Class="Calendar1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calendar Program" Height="256" Width="256">
+    <StackPanel>
+        <Calendar Name="cal" SelectionMode="MultipleRange">
+            <!--<Calendar.BlackoutDates>
+                <CalendarDateRange Start="11/8/2009"  End="11/10/2009"/>
+                <CalendarDateRange Start="11/18/2009" End="11/22/2009"/>
+            </Calendar.BlackoutDates> -->
+        </Calendar>
+        <TextBlock Text="Selected Date" FontWeight="Bold"
+                   Margin="5,5,5,2"/>
+        <TextBlock Margin="20,0"
+                   Text="{Binding ElementName=cal, Path=SelectedDate}"  />        
+    </StackPanel>
+</Window>

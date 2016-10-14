@@ -1,0 +1,13 @@
+﻿<Window x:Class="MenuCommands.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Command Menus" Height="130" Width="215">
+   <StackPanel>
+      <Menu>
+         <MenuItem Header="File">
+            <MenuItem Command="ApplicationCommands.New" />
+            <MenuItem Command="ApplicationCommands.Open"/>
+         </MenuItem>
+      </Menu>
+   </StackPanel>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="ListBoxOtherTypes.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Cats" Height="130" Width="190">
+   <StackPanel>
+      <ListBox Name="lstbxCats" HorizontalAlignment="Left" >
+         
+         <ListBoxItem>Sweetie</ListBoxItem>
+         <ListBoxItem>Darwin</ListBoxItem>
+         <ListBoxItem>Florence</ListBoxItem>
+         
+         <!--<TextBlock>Sweetie</TextBlock>
+         <TextBlock>Darwin</TextBlock>
+         <Button>Florence</Button>-->
+         
+      </ListBox>
+   </StackPanel>
+</Window>

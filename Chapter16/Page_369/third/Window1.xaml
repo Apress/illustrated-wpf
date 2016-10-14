@@ -1,0 +1,20 @@
+﻿<Window x:Class="TreeBound.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:TreeBound"
+    Title="Antique Maps" Height="220" Width="230">
+   <Window.Resources>
+      <HierarchicalDataTemplate DataType="{x:Type local:WorldRegion}"
+               ItemsSource="{Binding Path=Maps}">
+         <TextBlock Text="{Binding Path=RegionName}" Foreground="Gray"/>
+      </HierarchicalDataTemplate>
+
+      <HierarchicalDataTemplate DataType="{x:Type local:MapInfo}">
+         <TextBlock Text="{Binding Path=LastName}"/>
+      </HierarchicalDataTemplate>
+
+   </Window.Resources>
+   <Grid>
+      <TreeView Name="oldMaps" Grid.Column="0" FontWeight="Bold"/>
+   </Grid>
+</Window>

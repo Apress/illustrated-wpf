@@ -1,0 +1,24 @@
+﻿<Window x:Class="Bezier.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Bezier" Height="109" Width="308">
+   <Canvas>
+      <Button Canvas.Top="20" Canvas.Left="20" Content="Hi" Padding="7,3">
+         <Button.Triggers>
+            <EventTrigger RoutedEvent="Button.MouseEnter">
+               <EventTrigger.Actions>
+                  <BeginStoryboard>
+                     <Storyboard>
+                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Canvas.Left)"
+                                                           Duration="0:0:4">
+                           <LinearDoubleKeyFrame KeyTime="0:0:0" Value="20"/>
+                           <SplineDoubleKeyFrame KeyTime="0:0:4" Value="220" KeySpline=".06,.94 .90,0"/>
+                        </DoubleAnimationUsingKeyFrames>
+                     </Storyboard>
+                  </BeginStoryboard>
+               </EventTrigger.Actions>
+            </EventTrigger>
+         </Button.Triggers>
+      </Button>
+   </Canvas>
+</Window>

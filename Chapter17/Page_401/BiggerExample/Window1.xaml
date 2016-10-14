@@ -1,0 +1,47 @@
+﻿<FlowDocumentReader x:Class="BiggerExample.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   <FlowDocument>
+      <Paragraph FontSize="22" FontWeight="Bold">
+         Simple Flow Document
+      </Paragraph>
+      <Section>
+         <Paragraph FontSize="18">
+            <Bold>
+               First Section
+            </Bold>
+         </Paragraph>
+         <Paragraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed rutrum nunc. Ut pharetra, erat quis accumsan pellentesque, urna nulla congue felis, quis consequat massa eros sed purus.
+         </Paragraph>
+         <Paragraph>
+            Ut elementum auctor erat et mattis. Quisque venenatis erat sed nulla lacinia sit amet hendrerit tortor ornare.
+            Fusce sed malesuada libero.
+            <Bold>
+               <Underline>Vivamus ante odio</Underline>
+            </Bold> , volutpat non mollis quis, vulputate vel justo.
+         </Paragraph>
+      </Section>
+      <Section>
+         <Paragraph FontSize="18">
+            <Bold>Second Section</Bold>
+         </Paragraph>
+         <Paragraph>
+            Pellentesque cursus consectetur augue in aliquet. In sapien dui, lacinia nec condimentum ac, aliquam a erat.
+         </Paragraph>
+         <Paragraph>
+            Vivamus id felis laoreet orci mollis vulputate a vel velit. Donec in dui justo. Fusce porttitor accumsan massa, ut dignissim leo hendrerit in.
+            Donec sit amet magna eu dolor fermentum congue id luctus turpis. Suspendisse potenti. Suspendisse potenti.
+         </Paragraph>
+      </Section>
+      <Paragraph>
+         Etiam a magna massa. Aliquam eu orci diam, quis aliquam quam. Maecenas a massa sit amet eros dapibus vestibulum et vel urna. Praesent egestas rhoncus vulputate. Suspendisse potenti. Nullam nisi tellus, volutpat nec porta ut, tincidunt vel mauris. Suspendisse diam felis, dictum non porttitor a, accumsan vitae risus. Mauris ut tellus at elit malesuada scelerisque vel malesuada est. Nulla eu risus ante. Nam id libero nec est molestie porta non non quam. Aenean placerat libero eget lorem volutpat varius. Suspendisse massa lorem, blandit non hendrerit non, auctor ac elit. Nullam ornare elit sed leo varius eu aliquam lectus dictum. Phasellus nec urna arcu, eget pharetra mauris. Aenean non diam ac ante consequat ultricies. Pellentesque ornare, augue eget fermentum rhoncus, diam lorem rutrum felis, nec sollicitudin est metus ut lectus. Sed non nisl purus, nec sodales justo. Aenean a elit et ante consectetur posuere in eget erat. Duis non tellus at tortor posuere sollicitudin eleifend dapibus libero.
+      </Paragraph>
+      <Paragraph>
+         Fusce sapien velit, vulputate non interdum non, feugiat vel enim. Mauris adipiscing mollis risus a tincidunt. Cras interdum erat id lectus ornare faucibus. Ut fringilla turpis non dui imperdiet vel iaculis risus cursus. Praesent at nunc in enim iaculis lobortis. Donec a nunc eros. Nulla semper pharetra magna, et hendrerit lacus facilisis ac. Aenean sem elit, ullamcorper a iaculis sed, porttitor a eros. Praesent vel neque a ligula auctor iaculis sed interdum dolor. Quisque pulvinar malesuada condimentum.
+      </Paragraph>
+      <Paragraph>
+         Nulla posuere tristique augue fermentum convallis. Nam venenatis libero a nibh rutrum vel tincidunt risus semper. Cras ornare, enim ac tristique pulvinar, velit felis gravida velit, eu placerat nisl ligula vehicula massa. Suspendisse justo purus, porta vel accumsan vel, hendrerit vitae lectus. Vestibulum sagittis, arcu eu ornare bibendum, nulla mi fringilla orci, quis commodo libero dui a leo. Praesent ullamcorper elit in nibh tincidunt sodales sit amet ac augue. Vestibulum blandit pulvinar massa non aliquam. Donec laoreet dui ut ante dapibus facilisis. Aenean adipiscing dignissim lacus, eu hendrerit quam condimentum non. Proin enim magna, ultricies eget aliquam eu, mattis vitae purus.
+      </Paragraph>
+   </FlowDocument>
+</FlowDocumentReader>

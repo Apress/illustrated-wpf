@@ -1,0 +1,17 @@
+﻿<Window x:Class="AlignmentContent.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     Title="Alignment" Height="150" Width="173">
+   <StackPanel>
+      <Button HorizontalContentAlignment="Left">Left End</Button>
+      <Button HorizontalContentAlignment="Center">Center</Button>
+      <Button HorizontalContentAlignment="Right">Right End</Button>
+      <Button HorizontalContentAlignment="Stretch">Stretch?</Button>
+   </StackPanel>
+   <!--<StackPanel Orientation="Horizontal">
+      <Button VerticalContentAlignment="Top">Top</Button>
+      <Button VerticalContentAlignment="Center">Center</Button>
+      <Button VerticalContentAlignment="Bottom">Bottom</Button>
+      <Button VerticalContentAlignment="Stretch">Stretch</Button>
+   </StackPanel>-->
+</Window>

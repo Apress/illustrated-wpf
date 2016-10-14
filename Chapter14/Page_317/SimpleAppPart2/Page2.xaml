@@ -1,0 +1,10 @@
+﻿<Page x:Class="SimpleApp.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    WindowTitle="Page 2">
+    <Grid>
+      <TextBlock>This is Page 2. Go to
+         <Hyperlink NavigateUri="Page3.xaml">Page 3</Hyperlink>.
+      </TextBlock>
+    </Grid>
+</Page>

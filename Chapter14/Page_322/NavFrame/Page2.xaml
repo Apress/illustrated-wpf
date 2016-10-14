@@ -1,0 +1,8 @@
+﻿<Page x:Class="NavFrame.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Page2">
+    <Grid>
+      <TextBlock>This is Page 2.</TextBlock>
+    </Grid>
+</Page>

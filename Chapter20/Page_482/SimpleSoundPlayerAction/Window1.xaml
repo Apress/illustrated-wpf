@@ -1,0 +1,19 @@
+﻿<Window x:Class="SimpleSoundPlayerAction.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="Window1" Height="80" Width="160">
+   <Grid>
+      <Button>
+         
+         <Button.Triggers>
+            <EventTrigger RoutedEvent="Button.Click">
+               <EventTrigger.Actions>
+                  <SoundPlayerAction Source="Shuffle.wav"/>
+               </EventTrigger.Actions>
+            </EventTrigger>
+         </Button.Triggers>
+         
+         Click Me
+      </Button>
+   </Grid>
+</Window>

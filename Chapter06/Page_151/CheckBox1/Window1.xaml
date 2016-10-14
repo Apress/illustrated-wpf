@@ -1,0 +1,12 @@
+﻿<Window x:Class="CheckBox1.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Toggle" Height="150" Width="200">
+   <StackPanel>
+      <CheckBox Name="cb1" Margin="5,10,0,0">Option 1</CheckBox>
+      <CheckBox Name="cb2" Margin="5,0,0,0">Option 2</CheckBox>
+      <RadioButton Name="rb1" Margin="5,10,0,0">One of Three</RadioButton>
+      <RadioButton Name="rb2" Margin="5,0,0,0">Two of Three</RadioButton>
+      <RadioButton Name="rb3" Margin="5,0,0,0">Three of Three</RadioButton>
+   </StackPanel>
+</Window>

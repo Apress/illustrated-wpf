@@ -1,0 +1,13 @@
+﻿<Window x:Class="MediaElementHandlers.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="Music Player" Height="100" Width="200">
+   <StackPanel>
+      <MediaElement Name="player" LoadedBehavior="Manual"/>
+      <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+         <Button Click="Play_Click"  Margin="3" Padding="6,3">Play</Button>
+         <Button Click="Pause_Click" Margin="3" Padding="6,3">Pause</Button>
+         <Button Click="Stop_Click"  Margin="3" Padding="6,3">Stop</Button>
+      </StackPanel>
+   </StackPanel>
+</Window>

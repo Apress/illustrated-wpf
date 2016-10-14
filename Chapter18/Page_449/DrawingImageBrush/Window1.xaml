@@ -1,0 +1,32 @@
+﻿<Window x:Class="DrawingImageBrush.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DrawingBrush" Height="145" Width="159">
+   <Grid>
+      <Button Height="50" Width="100" FontWeight="Bold" Content="My Button">
+         <Button.Background>
+            <DrawingBrush>
+               <DrawingBrush.Drawing>
+                  <GeometryDrawing Brush="Aqua">
+                     <GeometryDrawing.Pen>
+                        <Pen Thickness="1" Brush="Black"/>
+                     </GeometryDrawing.Pen>
+                     <GeometryDrawing.Geometry>
+                        <CombinedGeometry GeometryCombineMode="Xor">
+                           <CombinedGeometry.Geometry1>
+                              <EllipseGeometry Center="60,50"
+                                               RadiusX="40" RadiusY="30"/>
+                           </CombinedGeometry.Geometry1>
+                           <CombinedGeometry.Geometry2>
+                              <EllipseGeometry Center="100,50"
+                                               RadiusX="40" RadiusY="30"/>
+                           </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                     </GeometryDrawing.Geometry>
+                  </GeometryDrawing>
+               </DrawingBrush.Drawing>
+            </DrawingBrush>
+         </Button.Background>
+      </Button>
+   </Grid>
+</Window>

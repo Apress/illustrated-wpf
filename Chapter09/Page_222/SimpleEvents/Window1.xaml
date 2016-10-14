@@ -1,0 +1,11 @@
+﻿<Window x:Class="SimpleEvents.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Events" Height="100" Width="150">
+    <StackPanel>
+      <Button Name="myButton" Padding="10"
+              Click="myButton_Click"
+              MouseEnter="myButton_MouseEnter"
+              MouseLeave="myButton_MouseLeave">Click Me</Button>
+   </StackPanel>
+</Window>

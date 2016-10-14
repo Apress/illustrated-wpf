@@ -1,0 +1,11 @@
+﻿<Window x:Class="CommandReverse.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Commands" Height="120" Width="200">
+   <StackPanel>
+      <TextBox Name="txtBox" Margin="10,10"
+               FontWeight="Bold" Background="Aqua"/>
+      <Button Name="btnReverse" HorizontalAlignment="Center" Padding="10,3"
+              FontWeight="Bold" Margin="10,0"/>
+   </StackPanel>
+</Window>

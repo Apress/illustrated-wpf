@@ -1,0 +1,22 @@
+﻿<Window x:Class="SimpleTabControl.Window1"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   Title="Using Tabs" Height="140" Width="200">
+   <TabControl>
+      <TabItem Header="Tab 1">
+         <StackPanel>
+            <TextBlock>This is text on Tab 1.</TextBlock>
+         </StackPanel>
+      </TabItem>
+      <TabItem Header="Tab 2">
+         <StackPanel>
+            <TextBlock>This is text on Tab 2.</TextBlock>
+         </StackPanel>
+      </TabItem>
+      <TabItem Header="Tab 3">
+         <StackPanel>
+            <TextBlock>This is text on Tab 3.</TextBlock>
+         </StackPanel>
+      </TabItem>
+   </TabControl>
+</Window>
